@@ -1,4 +1,4 @@
-#Instructions for running the app:
+# Instructions for running the app:
 
 - The Project was developed using Eclipse IDE and Java.
 
@@ -8,7 +8,10 @@
 	- Run the MyDatabase.java to start the application.
 
 - Following commands are supported:
-	CREATE TABLE table_name (row_id INT PRIMARY KEY, column_name1 data_type2 [NOT NULL][UNIQUE][AUTOINCREMENT][DEFAULT],... ); | Create a new table schema if not already exist
+
+	| Command														     | Function |
+	| -------------------------------------------------------------------------------------------------------------------------  | -------- |
+	| CREATE TABLE table_name (row_id INT PRIMARY KEY, column_name1 data_type2 [NOT NULL][UNIQUE][AUTOINCREMENT][DEFAULT],... ); | Create a new table schema if not already exist |
 	SELECT * FROM table_name;                        																		   | Display all records in the table
 	SELECT * FROM table_name WHERE <column_name> = <value>;                                                                    | Display records whose column is <value>
 	UPDATE <table_name> SET column_name = value WHERE <row_id = value>;                                                        | Modifies one or more records in a table
