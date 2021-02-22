@@ -8,6 +8,8 @@
 	- Run the MyDatabase.java to start the application.
 
 - Following commands are supported:
+
+
 	| CREATE TABLE table_name (row_id INT PRIMARY KEY, column_name1 data_type2 [NOT NULL][UNIQUE][AUTOINCREMENT][DEFAULT],... ); | Create a new table schema if not already exist |
 	SELECT * FROM table_name;                        																		   | Display all records in the table
 	SELECT * FROM table_name WHERE <column_name> = <value>;                                                                    | Display records whose column is <value>
