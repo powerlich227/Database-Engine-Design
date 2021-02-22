@@ -1,4 +1,4 @@
-#Instructions for running the app:
+# Instructions for running the app:
 
 - The Project was developed using Eclipse IDE and Java.
 
